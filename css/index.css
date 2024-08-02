@@ -1,0 +1,46 @@
+body{
+    background-image: url(bgimg.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links ul{
+    text-align: center;
+    list-style: none;
+}
+.links ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.links ul li >a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.links ul li>a:hover{
+    color: red;
+}
+.main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 40px;
+}
+.main h1{
+    font-size: 3rem;
+}
+
+.main p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0px 40px 0px 40px ;
+    margin-top: 50px;
+}
